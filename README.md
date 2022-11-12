@@ -16,9 +16,9 @@ cat requirements.txt
 
 ```
 # Measuring power measurement only with GPU
-python test_cnn_mnist_and_measure_power.py
+python3 test_cnn_mnist_and_measure_power.py
 # Measuring power measurement only with on-chip CPU
-python test_cnn_mnist_and_measure_power.py --no-cuda
+python3 test_cnn_mnist_and_measure_power.py --no-cuda
 ```
 
 ## Example results
